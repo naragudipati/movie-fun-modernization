@@ -40,6 +40,7 @@ public class AlbumsUpdater {
         objectReader = new CsvMapper().readerFor(Album.class).with(schema);
     }
 
+
     public void update() throws IOException {
         Optional<Blob> maybeBlob = blobStore.get("albums.csv");
 
