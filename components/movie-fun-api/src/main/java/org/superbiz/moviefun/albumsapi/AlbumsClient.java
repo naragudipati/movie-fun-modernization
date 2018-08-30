@@ -31,4 +31,5 @@ public class AlbumsClient {
 
         return restOperations.exchange(albumsUrl, GET, null, albumListType).getBody();
     }
+    String var = "{\"git\":{\"uri\":\"https://github.com/platform-acceleration-lab/movie-fun-config.git\",\"label\":\"master\"}}";
 }
