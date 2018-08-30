@@ -38,7 +38,8 @@
       /* 60px to make the container go all the way to the bottom of the topbar */
     }
   </style>
-  <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet
+  ">
 
 </head>
 
